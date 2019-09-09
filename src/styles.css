@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+table {
+  width: 100%;
+}
+
+tr.mat-row {
+  cursor: pointer;
+}
+
+td.mat-cell {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.mat-column-details {
+  width: 65% !important;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
